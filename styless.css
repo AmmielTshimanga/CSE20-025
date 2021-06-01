@@ -1,0 +1,81 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+head{
+    font-size: 3rem;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(abcdef.jpg) no-repeat;
+    background-size:cover ;
+    font-family: "Open sans";
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+    align-items: center;
+}
+header{
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    
+}
+ul li {
+    display: inline;
+    margin: 0 5px;
+    color: white;
+    
+}
+nav li {
+    display: inline;
+    margin: 5px 8px;
+}
+li a {
+    color: white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif; ;
+}
+.header{
+     height: 100px;
+     text-align: center;
+     color: white;
+     padding: 1px;
+}
+.container div {
+    padding: 1%;
+    box-sizing: border-box;
+}
+.left-col, .right-col {
+    width: 25%;
+    float: left;
+}
+.center-col{
+    width: 50%;
+    float: left;
+}
+.footer {
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.img {
+    resize: horizontal, vertical; 
+
+}
+.eiffel, .notre, .louvre {
+    width: 400px;
+    height: 350px;
+}
+title {
+    font-size: 2rem;
+    color: white;
+
+}

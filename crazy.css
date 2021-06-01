@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #D9DCE1;
+    font-size: 20px;
+}
+header{
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    
+}
+ul li {
+    display: inline;
+    margin: 0 5px;
+    color: white;
+    
+}
+nav li {
+    display: inline;
+    margin: 5px 8px;
+}
+li a {
+    color:black;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.image {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+.images {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.images img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.imager {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.imager img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.images #zoom-in img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.images #zoom-in:hover img {
+    transform: scale(1.5);
+}
+figure {
+    overflow: hidden;
+    margin: 0 10px;
+}
+.center-col, .right-col {
+    margin-top: 200px;
+    float: bottom, left;
+}
+h2 {
+    float: bottom;
+    margin-top: 200px;
+    text-align: left;
+    color: #000;
+    
+}
+
+h3 {
+    color: #000;
+    margin-top: 40px;
+
+}
+p {
+    padding: 0 10px;
+}
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.image #zoom-in img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.image #zoom-in:hover img {
+    transform: scale(1.5);
+}
+.footer {
+        clear: both;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        height: 50px;
+        padding-top: 10px;
+        box-sizing: border-box;
+    
+}
+
